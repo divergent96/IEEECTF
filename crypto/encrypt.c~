@@ -1,3 +1,5 @@
+//Used some website program to check the answer.Encrypt working properly.
+
 #include<stdio.h>
 #include<string.h>
 

@@ -18,11 +18,10 @@ main()
     
     for(i=0;i<n;i++){
         ans[i]=str1[i]^str2[i];
-        printf("%03d",ans[i]);
-
+ //       printf("%03d",ans[i]);
         }
-    
-     printf("\n##Counter=%d##\n",i);
+    printf("\nans :== %s\m",ans); 
+ //    printf("\n##Counter=%d##\n",i);
 
         
   }
