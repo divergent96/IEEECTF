@@ -1,0 +1,3 @@
+The third challange was little hard.I had to dig a little deep to find a solution.
+there was a fault in the form code that left the password file exposed.
+so i just input the password file with the link in browser and it displayed the password.
