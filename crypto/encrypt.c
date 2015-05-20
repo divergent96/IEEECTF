@@ -1,4 +1,5 @@
-//Used some website program to check the answer.Encrypt working properly.
+//Used some website program to check the answer.Encrypt working properly.Maybe decrypt is also working now.Illegible output
+
 
 #include<stdio.h>
 #include<string.h>
@@ -20,7 +21,7 @@ main()
         ans[i]=str1[i]^str2[i];
  //       printf("%03d",ans[i]);
         }
-    printf("\nans :== %s\m",ans); 
+    printf("\nans :== %s\n",ans); 
  //    printf("\n##Counter=%d##\n",i);
 
         
