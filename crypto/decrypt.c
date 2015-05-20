@@ -1,4 +1,4 @@
-//Not working,segmentation fault
+//Not working,segmentation fault..
 
 #include<stdio.h>
 #include<string.h>
