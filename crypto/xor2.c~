@@ -2,7 +2,7 @@
 #include<string.h>
 main()
 {
-int i,n;
+int i,n,n2;
 char str1[100],str2[100];
 
 printf("String : ");
@@ -11,9 +11,9 @@ printf("\nKey : ");
 scanf(" %s",str2);
 
 n=strlen(str1);
-
+n2=strlen(str2);
 for(i=0;i<n;i++){
-    str1[i]=str1[i]^str2[i%n];
+    str1[i]=str1[i]^str2[i%n2];
 }
 printf("\n\n##Cipher text : %s",str1);
 }
