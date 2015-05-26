@@ -4,6 +4,7 @@
 
 void extkey(char [],int);
 void lowerstr(char[]);
+void vigenere(char[],char[],int);
 
 main(){
     int i,n;
@@ -21,15 +22,24 @@ main(){
 //Function to lengthen key to plaintext
     extkey(keystr,n);
 //Plaintext to cypher    
-    for(i=0;i<n;i++)
-        instr[i]=instr[i]+keystr[i]-97;
+    vigenere(instr,keystr,0);    
     
     printf("\nCiphertext : %s\n",instr);
 //Cyphertext to plaintext
-    for(i=0;i<n;i++)
-        instr[i]=instr[i]-keystr[i]+97;
+    vigenere(instr,keystr,1);
 
     printf("\nPlaintext : %s\n",instr);
+}
+//Vigenere two way cipher function.
+void vigenere(char base[],char key[],int flag){
+    int i,n=strlen(base);
+    
+    if(flag==0)//for plain to cipher
+        for(i=0;i<n;i++)
+            base[i]=base[i]+key[i]-97;
+    else//for cipher to plain
+        for(i=0;i<n;i++)
+            base[i]=base[i]-key[i]+97;
 }
 
 //The key lengthening function.
