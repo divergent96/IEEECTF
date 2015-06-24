@@ -1,0 +1,6 @@
+looked at the code and it was written that its useless.
+so started inspect element and found a script inside which generated a key everytime webpage is loaded.
+Then I had no clue and looked at hint.It pointed to browsers java console whith in crome was cntrl+shift+j
+inside it i typed console.log(key) to display the key.
+
+flag == flag_399

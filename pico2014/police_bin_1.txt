@@ -1,0 +1,7 @@
+We had to open shell and type a given netcat command.
+It mentioned addition of two positive numbers is negative number.
+First I tried a ridiculously large number.
+As an error it displayed that largest java number is something(*dnt remember)
+So basically adding it will result in change of the sign bit in binary and it worked
+
+flag==That_was_easssy!
