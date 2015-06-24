@@ -34,10 +34,7 @@ def editdistance(str1,str2):
     return editdistance
 #end 3
 #End of user functions               
-"""
-str1 = raw_input("String 1 : ")
-str2 = raw_input("String 2 : ")
-"""
+
 str1 = "this is a test"
 str2 = "wokka wokka!!!"
 print editdistance(str1,str2)
