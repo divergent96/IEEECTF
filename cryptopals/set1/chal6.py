@@ -35,7 +35,5 @@ def editdistance(str1,str2):
 #end 3
 #End of user functions               
 
-str1 = "this is a test"
-str2 = "wokka wokka!!!"
-print editdistance(str1,str2)
+KEYSIZE = 2
 
