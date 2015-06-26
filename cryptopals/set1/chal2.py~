@@ -8,4 +8,4 @@ str2 = str2.decode('hex')
 
 outstr = xorstr(str1,str2)
 
-print outstr.encode('hex')
+print outstr#.encode('hex')
