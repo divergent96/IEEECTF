@@ -1,0 +1,9 @@
+Here we see that there is no field to run the SSI commands but still the password is to be acquired some way.
+
+So we have to use the one provided in level8 and change the command to ls../../9
+
+This will list the files in the level9 directory.
+
+Open the file via URL and password is
+
+Password : f4ad4c43

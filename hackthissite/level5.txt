@@ -1,0 +1,3 @@
+Change the mail id in the code by changing the hidden mail field to text field where you are able to enter your mail id and then press send pass to sam
+
+Password : 1f26d349

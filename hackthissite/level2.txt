@@ -1,0 +1,3 @@
+Password : #(--nothing--)
+
+This challange states admin didnot upload the password file so to your advantage the password becomes null thus an empty password field is the answer.

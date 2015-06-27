@@ -1,0 +1,15 @@
+Here we see the name is directly aken and put inside the php text.
+
+Input name and we see it enters a tmp directory and creates a new page.
+
+But our pass file is in base directory and so we have to list the base directory.
+
+So we will put in a SSI command to execute a command in bash shell which will list base directory.
+
+Put in this "<!--#exec cmd="ls ../">" in name field.
+
+this will fetch the name of pass file.
+
+open the file "https://www.hackthissite.org/missions/basic/8/au12ha39vc.php"
+
+Password : a70c1372

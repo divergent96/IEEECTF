@@ -1,0 +1,7 @@
+Password : a5100604
+
+inspect element reveals that the password file is password.php in the same directory.
+
+Thus open the file by address https://www.hackthissite.org/missions/basic/3/password.php
+
+Password is visible 

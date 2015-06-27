@@ -1,0 +1,13 @@
+Here we see the output from the calander is by direct cal command.
+
+Also the input is directly supplied to the unix shel thus we use method of passing 2 commands.
+
+input ";ls" will give the directory listing
+ 
+There is wierd file in directory
+
+We will get ths pass by direct url access via https://www.hackthissite.org/missions/basic/7/k1kh31b1n55h.php
+
+this will give the password
+
+Password : 42a17d4b

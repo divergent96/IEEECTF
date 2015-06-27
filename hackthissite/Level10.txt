@@ -1,0 +1,11 @@
+Well here there is no extra text fields and no extra buttons.
+
+Also inspect source reveals nothing about the password.
+
+But we see that its using javascript to check if user is authorised or not.
+
+So I used a cookie editor extension to see the cookies.
+
+There is a level10_authorised cookie here.
+
+Change its value from no to yes and you are through.

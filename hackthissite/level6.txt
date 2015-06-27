@@ -1,0 +1,7 @@
+The website allowed us to try the encryption.So i put in aaa and it returned abc.
+
+Made a script in python.
+
+pass is encrypted as pass[i]=original[i]+i with i starting from 0
+
+Password : b3c06153
