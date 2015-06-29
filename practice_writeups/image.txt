@@ -1,0 +1,14 @@
+Here an image was given.
+Image search didnot reveal anything.
+By a clue I analysed its hex using an online tool.(Can use a inbuilt tool also somethinh=g string or so)
+
+It gave a key and told us to guess it.
+
+guessing its sternography
+
+now using outguess command $ outguess -k "my secret key" -d hidden.txt demo.jpg out.jpg
+
+we get the text file with gibberish data
+
+run it through online shift cipher solver to get flag
+

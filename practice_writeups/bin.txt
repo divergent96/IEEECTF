@@ -1,0 +1,3 @@
+This was quite simple
+
+Open the bin with radre and you get the flag which is something like welcome to defcon ctf 2014.

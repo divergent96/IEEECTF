@@ -1,0 +1,7 @@
+Here a pcap file is given.
+
+open it with cloudshark
+
+in one of the GET rquest we get the username and password of one user and the server address.
+
+Use this as login on the server and get the flag

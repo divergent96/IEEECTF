@@ -1,0 +1,7 @@
+There was a jar file which was to be run in command line using java command.
+
+It asked for A number and if correct returned a flag.
+
+using jd-gui i opened the class file of the jar and it was revealed that answer was 1545686892/5 in rounded value.
+
+Another option is that two strings are xored for the flag so if we xor them it will give the flag.
