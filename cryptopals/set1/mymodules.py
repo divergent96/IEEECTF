@@ -2,7 +2,7 @@ import numpy as np
 
 #Character frequency comparison table
 charfreq = dict()
-for i in xrange(0,255):
+for i in xrange(0,256):
     charfreq[i]=0
     
 charfreq[ord('a')] = 7.52766
@@ -110,5 +110,28 @@ def xorstr(msg,key):
     return out
 #End 2
 
-def similarity(arr1,arr2):
-    return np.dot(arr1,arr2)/(np.sqrt(np.dot(arr1,arr1))*np.sqrt(np.dot(arr2,arr2)))
+#Calculates cosine similarity between two arrays.Used to compare text with frequency of letters.
+def similarity(v1, v2):
+    return (np.dot(v1, v2) / (np.sqrt(np.dot(v1, v1)) * np.sqrt(np.dot(v2, v2))))
+    
+#End 3
+
+def frequency(text):
+    freq = dict()
+    
+    for i in xrange(0,256):
+            freq[i]=0
+    
+    for char in text:
+        freq[ord(char)] = text.count(char)
+        
+    length = len(text)
+    
+    #normalising the no of chars to a ratio to compare with preset freq's
+    for x in freq:
+        if length > 0:
+            freq[x] = (float(freq[x])/length)*100.0
+        else:
+            freq[x] = float(0)
+            
+    return freq
