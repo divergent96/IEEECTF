@@ -1,0 +1,9 @@
+Here comapring it with a program with command line agrumets we get that it takes 3 command line arguments.
+
+analyse using r2
+
+so on trying 0 0 0 doesnot work as seen inside r2 there is a check for the same.
+
+On further digging we get that it outputs the roots of a solveable quadratic equation if b^2-4ac>0
+
+If b^2-4ac = 0 it will return the success string that you have found a solution now find the logic.

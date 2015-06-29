@@ -1,0 +1,11 @@
+There was a clue given in the problem which led us to hill meaning hill cipher.
+
+using wikipedia knowledge of the hill cipher the deciphering formula was
+
+(A^-1)(mod26)XB
+
+where A = numeric equal of cipher text B = key
+
+the above was o be found using a = 0,b = 1 and so on.
+
+

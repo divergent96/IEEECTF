@@ -1,0 +1,11 @@
+Here first change the bin to base 64 using command "filename | cat -base64 filename.out"
+
+now o executing it we see it asks for a number.
+
+Tried entering 5 but gave nope.Try Again as answer.
+
+So using radre open the file.
+
+Here we see input is being checked against another variable which is supplied the value of 10!
+
+now after 10! is divided by input if result is the decimal value of hex 0x15180 it will return success.
