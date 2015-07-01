@@ -1,0 +1,22 @@
+This level is little hard.
+
+On running ./level03 we get nothing as output.
+
+Looking at source code we see we need to give one argument whose length cannot be smaller than 4.
+
+Just input any 4 character input and it will show "I'm so sorry, you're at 0x80484a4 and you want to be at 0x8048474"
+
+Now run gdb and add breakpoint at 0x80484a4
+Now input run AAAAA
+(Because A is 41 in hex and is easily identifiable for debugging)
+
+now we see that it values are copied from lower to higher address.
+also we see there are 76 spaces to be filled before we could access 0x08048474
+
+So we will run the program with a python script giving the input as below
+
+./level03 $(python -c 'print "A"*76 + "\x74\x84\x04\x08"
+
+this will get us the shell access to read level 4 pass
+
+pass == nSwmULj2LpDnRGU2

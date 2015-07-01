@@ -1,0 +1,22 @@
+In level2 the source code is already given to us.
+
+On reading through source code we see we need to make it run catcher function to get the access.
+
+Also we need to get the SIGFPE(signal floating point exception) to do so.
+
+as we can see below that there is code to do the same by argv[1]/argv[2]
+
+but also another condition to run the catcher is that argv[2]!=0
+
+To do so now we need to do a buffer overflow.
+
+Now on the function page of SIGFPE we see that there is another number dividing by which buffer overflow is achieved.
+
+We need to divide -1 by the most negative number ie -2^(31)
+
+input 
+./level02 -2147483648 -1
+
+Output:-WIN
+
+level03 pass == IFd92yzOnSMv9tkX
