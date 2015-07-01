@@ -1,0 +1,11 @@
+Here a file is given in chinese adn needs to be decrypted to get the flag.
+
+Tried translating it but it didnot work.
+
+Now trying frequency analysis but I dont know how to do it properly.
+
+I stumbled upon the program SCBsolvr which did the work for me.
+
+The text was from ALice in Wonderland and it turns out that the flag is the title of the book
+
+Flag == ALICE IN WONDERLAND
