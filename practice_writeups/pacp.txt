@@ -1,7 +1,13 @@
 Here a pcap file is given.
 
-open it with cloudshark
+Open the file with Wireshark.
 
-in one of the GET rquest we get the username and password of one user and the server address.
+Apply filter http.request.method == GET and apply it.
+OR
+Apply filter http.authbasic and you will find just one HTTP request remaining.
+
+Now We see there is one request with HTTP protocol telling Authorization Required.
+
+Now The HTTP request after that has the credentials of the user under authorization and the server address.
 
 Use this as login on the server and get the flag

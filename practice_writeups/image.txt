@@ -1,14 +1,21 @@
 Here an image was given.
 Image search didnot reveal anything.
-By a clue I analysed its hex using an online tool.(Can use a inbuilt tool also somethinh=g string or so)
+By a clue I analysed its hex using an online tool at en.webhex.net
+(Can use a inbuilt tool also somethinhg string or so)
 
-It gave a key and told us to guess it.
+At the end of file you will find
+K="KhtgduHjj"Guess?
 
-guessing its sternography
+It gave a key and told us to guess how to use it.
 
-now using outguess command $ outguess -k "my secret key" -d hidden.txt demo.jpg out.jpg
+I guessed it to be sternography
 
-we get the text file with gibberish data
+Now using outguess command "$ outguess -k <my secret key> -d image.jpg hidden.txt"
 
-run it through online shift cipher solver to get flag
+We get the text file with gibberish data as "Jbhun_Hlbh_S0HhaQ_GU3_SyNnt0K_=="
 
+This is shifted by 13 using shift cipher.
+
+Run it through online shift cipher solver to get flag
+
+Flag ==: Wouha_Uyou_F0UunD_TH3_FlAag0X_==
