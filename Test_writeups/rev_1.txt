@@ -4,6 +4,43 @@ analyse using r2
 
 so on trying 0 0 0 doesnot work as seen inside r2 there is a check for the same.
 
+We see 3 atoi calls.
+Just below them are three values to which input is assigned via mov <variable>,eax
+
+rbp-local_3_4 = first(let a)
+rbp-local_3 = second(let b)
+rbp-locla_2_4 = third(let c)
+
+Now go to the next part after TRY harder string output
+
+here we see b is squared and stored in eax and moved to edx(Thus edx = b^2)
+
+now eax is made 0
+
+now a is subtracted and stored in ecx and stored in eax by"sub eax,ecx"
+
+thus eax = -a
+
+now shl eax,2 is executed which means eax will get multiplied by 4
+
+thus eax = -4a
+
+now imul eax, dword [rbp-local_2_4] is executed.
+
+thus eax = -4ac
+
+now add eax,edx is executed
+
+thus eax = b^2-4ac
+
+now it is compared with 0 and jump if not smaller is executed
+
+Thus if it is 0 or higher then program skips through all "try harder" statements
+
+Now we try via trial and error.
+
+first b^2-4ac = 0 ie 1,2,1 are used as inputs which give success string
+
 On further digging we get that it outputs the roots of a solveable quadratic equation if b^2-4ac>0
 
 If b^2-4ac = 0 it will return the success string that you have found a solution now find the logic.

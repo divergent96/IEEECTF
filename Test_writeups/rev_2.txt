@@ -5,6 +5,36 @@ now o executing it we see it asks for a number.
 Tried entering 5 but gave nope.Try Again as answer.
 
 So using radre open the file.
+ open sym.main block
+ 
+ 
+ Now puts is called for "enter a number"
+ Then scanf is called
+ 
+ edi is assigned value 0xa(dec = 10)
+ 
+ and the sym.func are called.
+ 
+ Scanf assigns the input number to rbp-local_0_4 which is then moved to edx
+ 
+ now move to sym.func block.
+ 
+ edi is assigned to rbp-local_2_4
+ 
+ Looking at code we see it is a loop till rbp-local_2_4 is eqaul to 1
+ 
+ Inside the loop looking carefully we see its recursive loop for factorial calculation in which the subsequent multiplications are stored inside the rax
+ 
+ thus finally we get rax = 10!(10 factorial) and edi = 1
+ 
+Now back to main block we see edx is moved to rcx.
+
+Now idiv rcx is called (What this does is divides the current register (ie.EDX:EAX or RDX:RAX by the argument) here RDX:RAX(Seen as RDX=most significant 4 bits RAX = least significant 4 bits) is divided by rcx and stored in RDX:RAX (ie. in variable rax))
+
+Then it is compared with 0x15180(dec = 86400)
+
+
+Thus in short
 
 Here we see input is being checked against another variable which is supplied the value of 10!
 
